@@ -1,9 +1,24 @@
+body {
+  max-width: 950px;
+  margin: auto;
+  border-radius: 15px 15px 15px 15px;
+}
 header, footer {
   background-color: #1d3557;
 }
 img {
   float: right;
+  margin: 10px 10px 0 0;
+  height: auto;
+  max-width: 150px;
 }
 h1 {
   color: white;
+  padding: 10px;
+}
+footer {
+  border-radius: 0 0 15px 15px;
+}
+header {
+  border-radius: 15px 15px 0 0;
 }
