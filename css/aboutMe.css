@@ -1,9 +1,61 @@
+  /*colors from your palette 
+    --primary-color: #1D3557;
+    --secondary-color: #f1faee;*/
+
+body {
+  max-width: 800px;
+  margin: auto;
+  border-radius: 15px 15px 15px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 header, footer {
   background-color: #1d3557;
 }
+main {
+  background-color: #f1faee;
+  text-align: left;
+  padding: 15px;
+}
 img {
   float: right;
+  margin: 10px 10px 0 0;
+  height: auto;
+  max-width: 150px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #999;
 }
 h1 {
-  color: white;
+  color: #f1faee;
+  padding: 10px;
+  margin: 0px;
+  padding: 10px;
+  
+}
+h2 {
+  margin: 0px;
+  padding: 10px;
+}
+
+ul {
+  margin: 0px;
+  padding-left: auto;
+
+}
+footer {
+  border-radius: 0 0 15px 15px;
+  text-align: center;
+}
+p {
+  margin: 0px;
+  padding: 10px 10px 0px 10px;
+  color: #f1faee;
+}
+span {
+  color: #f1faee;
+}
+.byuLink {
+  color: #f1faee;
+}
+header {
+  border-radius: 15px 15px 0 0;
 }

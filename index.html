@@ -4,25 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WDD 230 Portal-Kurt Hermansen</title>
+  <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/aboutMe.css">
+
 </head>
 <body>
-  <script src="/js/aboutMe.js"></script>
+ 
   <Header>
+    <img src="/Images/smallSelfie.jpg" alt="">
     <H1>Kurt Hermansen</H1>
+   
   </Header>
   <main>
-    <img src="/images/smallSelfie.jpg" alt="">
+    
     <H2>WDD 230 Assignment Portal</H2>
-    <ul>
-      <li>lesson 02: <a href="link02.html">Assignment Link</a></li>
-      <li>lesson 03: <a href="link03.html">Assignment Link</a></li>
-      <li>lesson 04: <a href="link04.html">Link</a> | <a href="link04.html">Link</a></li>
-    </ul>
+    <hr>
+    <nav>
+      <ul>
+        <li>lesson 02: <a href="link02.html">Assignment Link</a></li>
+        <li>lesson 03: <a href="link03.html">Assignment Link</a></li>
+        <li>lesson 04: <a href="link04.html">Link</a> | <a href="link04.html">Link</a></li>
+      </ul>
+    </nav>
+    
   </main>
   <footer>
-    <p>&copy; 2020 | Kurt Hermansen | Utah | <a href="https://www.byui.edu.edu/online">BYUI Online Learning</a></p>
-    <span id="lastModified"></span>
+    <p>&copy; <span id="currentYear"></span> | Kurt Hermansen | Utah | <a href="https://www.byui.edu/online" class="byuLink" target="blank">BYUI Online Learning</a></p>
+   <span>Last Modified | </span> <span id="lastMod"></span>
+   <script src="/js/aboutMe.js"></script>
   </footer>
   
 </body>
