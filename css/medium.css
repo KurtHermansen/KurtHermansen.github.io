@@ -17,4 +17,13 @@
     .portrait {
         float: right;
     }
+    .desmain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .cocaDiv {
+          grid-column: span 2;
+          text-align: center;
+
+      }
 }

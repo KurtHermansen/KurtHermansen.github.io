@@ -4,7 +4,7 @@
 
   body {
     margin: auto;
-    font-family: 'Yusei Magic', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   header,
@@ -41,6 +41,15 @@
     margin: 0px;
     padding: 10px;
   }
+  .h2des {
+    color: #f1faee;
+  }
+  .navHome {
+    color: #f1faee;
+  }
+  nav {
+    text-align: left;
+  }
 
   ul {
     margin: 0px;
@@ -48,7 +57,7 @@
 
   }
 
-  p {
+  .pfooter {
     margin: 0px;
     padding: 10px 10px 0px 10px;
     color: #f1faee;
@@ -60,4 +69,37 @@
 
   .byuLink {
     color: #f1faee;
+  }
+  .desmain {
+    padding: 0%;
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+  .micImg, .appleImg, .cocaImg {
+   max-width: 99%;
+   border-style: solid;
+   border-width: 1px;
+
+  }
+  .micDiv, .appleDiv, .cocaDiv {
+    border-style: solid;
+    border-width: 1px;
+    margin: .5rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  .desP {
+    text-align: left;
+  }
+  h3, p {
+    margin: 0%;
+    padding: .3rem .8rem .3rem .8rem;
+  }
+  h3 {
+    background-color: #457b9d;
+    color:#ffffff ;
+  }
+  .imgCenter {
+    text-align: center;
   }
