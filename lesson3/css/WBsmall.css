@@ -1,0 +1,113 @@
+
+/* Main Color Palette CSS HEX 
+--timberwolf: #cfdbd5;
+--alabaster: #e8eddfff;
+--yellow-pantone: #fae132;
+--eerie-black: #242423;
+--jet: #333533;
+*/
+
+
+/* SCSS Gradient 
+$gradient-top: linear-gradient(0deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-right: linear-gradient(90deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-bottom: linear-gradient(180deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-left: linear-gradient(270deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-top-right: linear-gradient(45deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-bottom-right: linear-gradient(135deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-top-left: linear-gradient(225deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-bottom-left: linear-gradient(315deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-radial: radial-gradient(#cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+*/
+
+body {
+    background-color: #333533;
+    font-family: 'Heebo', sans-serif;
+}
+header {
+    text-align: center;
+}
+img {
+    padding-top: 10px;
+
+}
+header h1 {
+    color: #e8eddf;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+h2 {
+    color: #242423;
+}
+h3 {
+    color: #333533;
+}
+p {
+
+}
+.logo {
+    max-width: 50%;
+  
+}
+ul {
+    align-items: center;
+}
+nav {
+    background-color: #242423;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul a {
+	display: block;
+	color:#fae132 ;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+}
+nav a:hover {
+	background-color: #fae132;
+	color: #242423;
+}
+main {
+    background-color: #cfdbd5;
+}
+h2, h3 {
+    margin: 0;
+    padding: 15px 15px;
+}
+main p, ul {
+    margin: 0;
+    padding: 0 50px 50px 50px;
+
+}
+main img {
+    max-width: 400px;
+    width: 75%;
+    padding: 15px;
+}
+ul {
+    padding-left: 3fr;
+    padding-right: auto;
+}
+footer {
+    text-align: center;
+    background-color: #242423;
+}
+.pfooter {
+    margin: 0px;
+    padding: 10px 10px 0px 10px;
+    color:e8eddf;
+  }
+
+  span {
+    color: e8eddf;
+  }
+
+  .byuLink {
+    color: e8eddf;
+  }
