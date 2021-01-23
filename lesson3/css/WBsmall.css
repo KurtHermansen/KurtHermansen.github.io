@@ -90,10 +90,6 @@ main img {
     width: 75%;
     padding: 15px;
 }
-ul {
-    padding-left: 3fr;
-    padding-right: auto;
-}
 footer {
     text-align: center;
     background-color: #242423;
@@ -101,13 +97,13 @@ footer {
 .pfooter {
     margin: 0px;
     padding: 10px 10px 0px 10px;
-    color:e8eddf;
+    color: #e8eddf;
   }
 
   span {
-    color: e8eddf;
+    color: #e8eddf;
   }
 
   .byuLink {
-    color: e8eddf;
+    color: #e8eddf;
   }
