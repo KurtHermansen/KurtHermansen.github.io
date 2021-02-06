@@ -14,7 +14,7 @@ function toggleMenu(){
 
 window.addEventListener("pageshow", pancake);
 function pancake() {
-    if (day == 5){
+    if (day == 6){
         document.getElementsByClassName("none")[0].classList.add("pancake");
     }
 }
