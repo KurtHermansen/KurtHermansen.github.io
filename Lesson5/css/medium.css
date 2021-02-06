@@ -8,7 +8,7 @@
         margin: 0 auto;
 
         }
-        .sale {
+        .pancake {
             padding: 10px;
             font-size: 1.5rem;
             font-weight: 800;
@@ -56,6 +56,10 @@ main div {
 .forecast{
     display: block;
 }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
 table {
     margin: 0 auto;
 }
@@ -66,5 +70,16 @@ td img {
   }
 th,td {
     text-align: center;
+}
+.map{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.beeIdaho {
+    display: block;
+    width: 90%;
+    box-shadow: 0 0 30px #cfdbd5;
+    margin: 20px;
+    max-width: 300px;
 }
 }

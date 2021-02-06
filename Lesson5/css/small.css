@@ -78,7 +78,10 @@ h3 {
 ul {
     align-items: center;
 }
-
+.active {
+    text-decoration: underline;
+    background-color: #333533;
+}
 nav {
     background-color: #242423;
 }
@@ -194,6 +197,28 @@ main div {
 }
 .readon {
     color: dodgerblue;
+}
+.beeIdaho {
+   display: none;
+}
+.map {
+    margin: 0 5%;
+    background-color:#333533;
+    padding: 15px;
+}
+.social {
+    margin: auto 0;
+    
+}
+.social p {
+    text-align: center;
+    color: #cfdbd5;
+}
+.socialIcon {
+    text-align: center;
+}
+.socialIcon a img {
+    width: 30px;
 }
 footer {
     text-align: center;
