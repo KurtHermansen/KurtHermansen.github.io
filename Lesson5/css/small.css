@@ -207,8 +207,12 @@ main div {
     padding: 15px;
 }
 .social {
+    text-align: center;
     margin: auto 0;
     
+}
+.socialheading {
+    color: #cfdbd5;
 }
 .social p {
     text-align: center;
