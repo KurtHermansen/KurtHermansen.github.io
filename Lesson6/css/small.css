@@ -27,6 +27,7 @@ body {
 .none {
     display: none;
 }
+
 .pancake {
     display: block;
     background-color: #fae132;
@@ -43,9 +44,10 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 .heading {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
 }
 
 .heading h1 {
@@ -54,6 +56,7 @@ header {
     text-align: center;
     font-size: 1.5rem;
 }
+
 .heading div {
     color: #fae132;
     font-size: .75rem;
@@ -78,10 +81,12 @@ h3 {
 ul {
     align-items: center;
 }
+
 .active {
     text-decoration: underline;
     background-color: #333533;
 }
+
 nav {
     background-color: #242423;
 }
@@ -106,6 +111,7 @@ nav a:hover {
     background-color: #fae132;
     color: #242423;
 }
+
 .menu li:first-child {
     display: block;
 }
@@ -114,6 +120,7 @@ nav a:hover {
     display: none;
     font-size: .75rem;
 }
+
 .burger li {
     display: block;
 }
@@ -122,6 +129,7 @@ main {
     background-color: #cfdbd5;
     padding: 15px 0;
 }
+
 main p {
     margin: 0;
 }
@@ -139,9 +147,11 @@ main div {
     margin: 5px 0;
     font-size: .75rem;
 }
+
 .parHero {
     position: relative;
 }
+
 .hero {
     display: block;
     width: 90%;
@@ -150,86 +160,106 @@ main div {
 
 .summary {
     position: absolute;
-    background: radial-gradient(#fae132, #cfdbd5 );
+    background: radial-gradient(#fae132, #cfdbd5);
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 5px;
-    opacity: .7 ;
+    opacity: .7;
     top: 5%;
     left: 10%;
     border: 1px solid #242423;
     box-shadow: 0 0 30px #242423;
     padding: 10px;
 }
+
 .summary h3 {
     padding: 5px;
     grid-column: 1/3;
     text-decoration: underline;
 }
+
 .summaryLeft {
     text-align: right;
     text-transform: uppercase;
     margin: 0;
 }
+
 .summaryLeft p {
     padding: 0;
 }
+
 .summaryRight p {
     padding: 0;
 }
+
 .summaryRight {
     margin: 0;
 }
+
 .forecast {
     display: none;
 }
-.article{
+
+.article {
     margin: 0 5%;
     padding: 15px;
-  background-color: white;
+    background-color: white;
 }
+
 .bee {
     display: block;
     width: 250px;
     margin: 0 auto;
     box-shadow: 0 0 15px #242423;
 }
-.text h3,p {
+
+.text h3,
+p {
     padding: 15px;
 }
+
 .artLink {
     padding: 15px;
     color: dodgerblue;
 }
+
 .readon {
     color: dodgerblue;
 }
+
 .beeIdaho {
-   display: none;
+    display: none;
 }
+
 .map {
     margin: 0 5%;
-    background-color:#333533;
+    background-color: #333533;
     padding: 15px;
 }
+
 .social {
     text-align: center;
     margin: auto 0;
-    
+
 }
+
 .socialheading {
     color: #cfdbd5;
 }
+
 .social p {
     text-align: center;
     color: #cfdbd5;
 }
+
 .socialIcon {
     text-align: center;
 }
+
 .socialIcon a img {
     width: 30px;
 }
+
 footer {
     text-align: center;
     background-color: #242423;
