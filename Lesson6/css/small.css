@@ -170,7 +170,12 @@ main div {
     text-align: right;
     text-transform: uppercase;
     margin: 0;
-
+}
+.summaryLeft p {
+    padding: 0;
+}
+.summaryRight p {
+    padding: 0;
 }
 .summaryRight {
     margin: 0;
