@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/Lesson7/css/small.css">
+    <link rel="stylesheet" href="/Lesson7/css/medium.css">
+    <link rel="stylesheet" href="/Lesson7/css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="gal-header">
+        <img class="logo" src="/Lesson7/images/weatherBeeLogo.png" alt="weatherbee.org Logo">
+        <section class="heading">
+            <h1>WeatherBee.org</h1>
+            <div>Our motto here is if the Bees are out why aren't you?</div>
+        </section>  
+    </header>
+    <nav class="gal-nav">
+        <ul class="menu">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class=".home" href="/index.html">&LessLess;Home</a></li>
+            <li><a href="/Lesson7/preston-7.html">Preston</a></li>
+            <li><a href="/Lesson7/sodaSprings.html">Soda Springs</a></li>
+            <li><a href="/Lesson7/fishHaven.html">Fish Haven</a></li>
+            <li><a href="/Lesson7/stormCenter.html">Storm Center</a></li>
+            <li><a class="active" href="/Lesson7/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="gal-main">
+        <h2>Weather Bee Gallery</h2>
+           <section class="gallery">
+            <picture>
+                <img src="/Lesson7/weatherGallery/placeHolder.jpg" data-src="/Lesson7/weatherGallery/SunnyFarm.jpg" alt="Sunny Farm">
+                <p>This is a Sunny Day on the Farm</p>
+            </picture>
+            <picture>
+                <img src="/Lesson7/weatherGallery/placeHolder.jpg" data-src="/Lesson7/weatherGallery/fall.jpg" alt="Fall Tree">
+                <p>The peak of fall in Idaho</p>
+            </picture>
+            <picture>
+                <img src="/Lesson7/weatherGallery/placeHolder.jpg" data-src="/Lesson7/weatherGallery/SunSet.jpg" alt="Sun Set">
+                <p>Sun sets are our of this world in Idaho</p>
+            </picture>
+            <picture>
+                <img src="/Lesson7/weatherGallery/placeHolder.jpg" data-src="/Lesson7/weatherGallery/Rainy.jpg" alt="Rainy Town">
+                <p>One of the worst rain storm on record</p>
+            </picture>
+            <picture>
+                <img src="/Lesson7/weatherGallery/placeHolder.jpg" data-src="/Lesson7/weatherGallery/lightning.jpg" alt="Lightning Clouds">
+                <p>Sprind time storms bring the light</p>
+            </picture>
+            <picture>
+                <img src="/Lesson7/weatherGallery/placeHolder.jpg" data-src="/Lesson7/weatherGallery/lightning2.jpg" alt="Lighting Clouds">
+                <p>These light shows will blow your mind</p>
+            </picture>
+            <picture>
+                <img src="/Lesson7/weatherGallery/placeHolder.jpg" data-src="/Lesson7/weatherGallery/Rainbow.jpg" alt="Rainbow on a Farm">
+                <p>Idaho farm after much needed rain</p>
+            </picture>
+            <picture>
+                <img src="/Lesson7/weatherGallery/placeHolder.jpg" data-src="/Lesson7/weatherGallery/cloudy.jpg" alt="Cloudy Pathway">
+                <p>When the weather isn't great it's still pretty great</p>
+            </picture>
+            <picture>
+                <img src="/Lesson7/weatherGallery/placeHolder.jpg" data-src="/Lesson7/weatherGallery/snowy.jpg" alt="Snowy Town">
+                <p>The snow covering Idaho streets</p>
+            </picture>
+           </section>
+        
+    </main>
+    <script src="/Lesson7/JS/lazyload.js"></script>
+    <footer class="gal-footer">
+        <p class="pfooter">&copy; <span id="currentYear"></span> Weather Bee | Kurt Hermansen | Utah | <a
+                href="https://www.byui.edu/online" class="byuLink" target="blank">BYUI Online Learning</a></p><span id="currentDate"></span>
+        <script src="/Lesson7/js/weather.js"></script>
+    </footer>
+</body>
+
+</html>

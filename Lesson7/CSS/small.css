@@ -1,0 +1,299 @@
+/* Main Color Palette CSS HEX 
+--timberwolf: #cfdbd5;
+--alabaster: #e8eddfff;
+--yellow-pantone: #fae132;
+--eerie-black: #242423;
+--jet: #333533;
+*/
+
+
+/* SCSS Gradient 
+$gradient-top: linear-gradient(0deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-right: linear-gradient(90deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-bottom: linear-gradient(180deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-left: linear-gradient(270deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-top-right: linear-gradient(45deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-bottom-right: linear-gradient(135deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-top-left: linear-gradient(225deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-bottom-left: linear-gradient(315deg, #cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+$gradient-radial: radial-gradient(#cfdbd5ff, #e8eddfff, #fae132ff, #242423ff, #333533ff);
+*/
+
+body {
+    background-color: #333533;
+    font-family: 'Heebo', sans-serif;
+}
+
+.none {
+    display: none;
+}
+
+.pancake {
+    display: block;
+    background-color: #fae132;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #333533;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h1 {
+    color: #e8eddf;
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.heading div {
+    color: #fae132;
+    font-size: .75rem;
+    padding: 0 20% 0 20%;
+}
+
+h2 {
+    color: #242423;
+}
+
+h3 {
+    color: #333533;
+}
+
+
+
+.logo {
+    max-width: 80px;
+    padding: 10px;
+}
+
+ul {
+    align-items: center;
+}
+
+.active {
+    text-decoration: underline;
+    background-color: #333533;
+}
+
+nav {
+    background-color: #242423;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul a {
+    display: block;
+    white-space: nowrap;
+    color: #fae132;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #fae132;
+    color: #242423;
+}
+
+.menu li:first-child {
+    display: block;
+}
+
+.menu li {
+    display: none;
+    font-size: .75rem;
+}
+
+.burger li {
+    display: block;
+}
+
+main {
+    background-color: #cfdbd5;
+    padding: 15px 0;
+}
+
+main p {
+    margin: 0;
+}
+
+h2,
+h3 {
+    margin: 0;
+    padding: 15px 15px;
+    font-size: 1rem;
+}
+
+main div {
+
+    margin: 0;
+    margin: 5px 0;
+    font-size: .75rem;
+}
+
+.parHero {
+    position: relative;
+}
+
+.hero {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.summary {
+    position: absolute;
+    background: radial-gradient(#fae132, #cfdbd5);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+    opacity: .7;
+    top: 5%;
+    left: 10%;
+    border: 1px solid #242423;
+    box-shadow: 0 0 30px #242423;
+    padding: 10px;
+}
+
+.summary h3 {
+    padding: 5px;
+    grid-column: 1/3;
+    text-decoration: underline;
+}
+
+.summaryLeft {
+    text-align: right;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.summaryLeft p {
+    padding: 0;
+}
+
+.summaryRight p {
+    padding: 0;
+}
+
+.summaryRight {
+    margin: 0;
+}
+
+.forecast {
+    display: none;
+}
+
+.article {
+    margin: 0 5%;
+    padding: 15px;
+    background-color: white;
+}
+
+.bee {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    box-shadow: 0 0 15px #242423;
+}
+
+.text h3,
+p {
+    padding: 15px;
+}
+
+.artLink {
+    padding: 15px;
+    color: dodgerblue;
+}
+
+.readon {
+    color: dodgerblue;
+}
+
+.beeIdaho {
+    display: none;
+}
+
+.map {
+    margin: 0 5%;
+    background-color: #333533;
+    padding: 15px;
+}
+
+.social {
+    text-align: center;
+    margin: auto 0;
+
+}
+
+.socialheading {
+    color: #cfdbd5;
+}
+
+.social p {
+    text-align: center;
+    color: #cfdbd5;
+}
+
+.socialIcon {
+    text-align: center;
+}
+
+.socialIcon a img {
+    width: 30px;
+}
+
+footer {
+    text-align: center;
+    background-color: #242423;
+    padding: 10px 0;
+}
+
+.pfooter {
+    margin: 0px auto;
+
+    color: #e8eddf;
+    font-size: .75rem;
+}
+
+footer span {
+    color: #e8eddf;
+    font-size: .75rem;
+}
+
+.byuLink {
+    color: #e8eddf;
+    font-size: .75rem;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    padding: 15px;
+}
+picture {
+    display: block;
+    background-color: white;
+}
+picture img,p {
+    max-width: 500px;
+    width: 100%;
+
+}
