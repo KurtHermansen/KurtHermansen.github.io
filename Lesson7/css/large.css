@@ -3,7 +3,7 @@
         display: grid;
         grid-template-columns: auto auto auto;
     }
-   .gallery picture:hover {
+   .gallery div:hover {
     border: 1px solid #242423;
     box-shadow: 0 0 30px #242423;
 

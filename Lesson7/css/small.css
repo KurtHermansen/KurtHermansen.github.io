@@ -288,12 +288,14 @@ footer span {
     grid-gap: 10px;
     padding: 15px;
 }
+.gallery div {
+    background-color: white;
+}
 picture {
     display: block;
-    background-color: white;
 }
 picture img,p {
     max-width: 500px;
     width: 100%;
 }
-/*dont know if why this Css isn't taking
+
