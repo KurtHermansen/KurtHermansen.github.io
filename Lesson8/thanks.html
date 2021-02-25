@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="/Lesson8/css/small.css">
     <link rel="stylesheet" href="/Lesson8/css/medium.css">
     <link rel="stylesheet" href="/Lesson8/css/large.css">
-    <link rel="preconnect" href="https:/fonts.gstatic.com">
-    <link href="https:/fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
 </head>
 
 <body>
@@ -35,17 +34,25 @@
         </ul>
     </nav>
     <main class="thanks">
-        <h1>Thank You</h1>
-        <p>Weather Bee thanks you for your Storm Report!</p>
-        <button><a href="/Lesson8/stormCenter.html">Back to Storm Canter</a></button>
+        <h2>Thank You</h2>
+        <p>Weather Bee thanks you for your Storm Report!</p>       
+        <button onclick="document.location='/Lesson8/stormCenter.html'">Back to Storm Canter</button>
 
     </main>
 <footer>
     <p class="pfooter">&copy; <span id="currentYear"></span> Weather Bee | Kurt Hermansen | Utah | <a
-            href="https:/www.byui.edu/online" class="byuLink" target="blank">BYUI Online Learning</a></p><span
+            href="https://www.byui.edu/online" class="byuLink" target="blank">BYUI Online Learning</a></p><span
         id="currentDate"></span>
     <script src="/Lesson8/js/weather.js"></script>
 </footer>
+<script src="https:/ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Heebo', 'sans-serif']
+            }
+        });
+    </script>
 </body>
 
 </html>
