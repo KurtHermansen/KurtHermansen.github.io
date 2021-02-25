@@ -38,7 +38,7 @@ body {
     color: #333533;
 
 }
-
+/*------------Header-----------------*/
 header {
     display: flex;
     align-items: center;
@@ -81,7 +81,7 @@ h3 {
 ul {
     align-items: center;
 }
-
+/*------------NAV-----------------*/
 .active {
     text-decoration: underline;
     background-color: #333533;
@@ -147,7 +147,7 @@ main div {
     margin: 5px 0;
     font-size: .75rem;
 }
-
+/*------------Hero Image-----------------*/
 .parHero {
     position: relative;
 }
@@ -199,7 +199,7 @@ main div {
 .forecast {
     display: none;
 }
-
+/*------------Article-----------------*/
 .article {
     margin: 0 5%;
     padding: 15px;
@@ -230,7 +230,7 @@ p {
 .beeIdaho {
     display: none;
 }
-
+/*------------Map-----------------*/
 .map {
     margin: 0 5%;
     background-color: #333533;
@@ -259,7 +259,7 @@ p {
 .socialIcon a img {
     width: 30px;
 }
-
+/*------------Footer-----------------*/
 footer {
     text-align: center;
     background-color: #242423;
@@ -282,6 +282,7 @@ footer span {
     color: #e8eddf;
     font-size: .75rem;
 }
+/*------------Gallery-----------------*/
 .gallery {
     display: grid;
     grid-template-columns: auto;
@@ -298,4 +299,93 @@ picture img,p {
     max-width: 500px;
     width: 100%;
 }
+/*------------Form-----------------*/
+.formhead {
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 400px;
+}
 
+form fieldset {
+    border: 1px solid #333533;
+    padding: 1rem;
+    border-radius: 15px;
+    margin: 1rem;
+}
+form legend {
+    color: #333533;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+input, select, textarea {
+    border-radius: 10px;
+}
+input{
+    padding-left: 10px;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #242423;
+    font-size: .8rem;
+}
+form label.bot, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #242423;
+    font-size: 1rem;
+}
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    padding: .75rem .5rem;
+    color: black;
+    width: 95%;
+}
+form label.bot input, form label.bot select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    padding: .75rem .5rem;
+    color: black;
+    width: 95%;
+}
+form input.submitBtn {
+    display: inline;
+    border: solid 1px #999;
+    background-color: #fae132;
+    color: #242423;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem 15%;
+    width: 70%;
+  
+}
+form label.top input:required {
+    background: rgba(217, 4, 41, .1)
+}
+form label.top input:required:valid {
+    background: rgba(6, 236, 14, 0.1)
+
+}
+/*-------------------Thanks---------------------------*/
+.thanks {
+    text-align: center;
+}
+.thanks p {
+    margin: 1rem auto;
+}
+.thanks button {
+    text-decoration: none;
+    border: solid 1px #999;
+    background-color: #fae132;
+    color: #242423;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+}
