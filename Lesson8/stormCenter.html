@@ -34,7 +34,7 @@
         </ul>
     </nav>
     <main>
-        <h1 class="formhead">Storm Center Report</h1>
+        <h2 class="formhead">Storm Center Report</h2>
         <form method="GET" action="thanks.html" autocomplete="off">
             <fieldset>
                 <legend>Personal Information</legend>
@@ -49,17 +49,15 @@
             <fieldset>
                 <legend>Storm Information</legend>
                 <label class="bot"> Date <input type="date" name="date"></label>
-                <div>
-                    <label class="bot">Storm Type <input list="storm" name="storm"></label>
-                    <label class="bot">Storm Type <input list="storm" name="storm"></lable>
+                    <label class="bot">Storm Type</label>
+                    <input class="list" list="storm" name="storm">
                     <datalist id="storm">
                         <option value="Flash Flood">
                         <option value="Hail">
                         <option value="Hurricane">
                         <option value="Thunderstorm">
                         <option value="Tornado">
-                    </datalist>
-                </div>
+                        </datalist>
                 <label class="rating bot" for="rating">Rating:<input class="rate" type="range" id="rating" value="5" min="1"
                             max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)"
                             onchange="adjustRating(this.value)">

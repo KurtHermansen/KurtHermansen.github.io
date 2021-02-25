@@ -338,7 +338,7 @@ form label.bot, form div {
     color: #242423;
     font-size: 1rem;
 }
-form label.top input, form label.top select {
+form label.top input, form label.top select, .list {
     display: block;
     font-size: 1rem;
     border: solid 1px #999;
