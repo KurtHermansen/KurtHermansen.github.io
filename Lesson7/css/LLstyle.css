@@ -3,7 +3,6 @@ main {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
-
 }
 picture {
     border-radius: 5px;
