@@ -86,7 +86,7 @@ th,td {
 .beeIdaho {
     display: block;
     width: 90%;
-    box-shadow: 0 0 30px #cfdbd5;
+    box-shadow: 0 0 15px #cfdbd5;
     margin: 20px;
     max-width: 300px;
 }
@@ -95,4 +95,44 @@ th,td {
     grid-template-columns: auto auto;
 
 }
+/*------------index------------*/
+.smallart {
+    display: none;
+}
+.mediumart {
+    display: block;
+    padding: 2rem;
+
+}
+.largeart {
+    display: none;
+}
+.cards section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.cards section div {
+    grid-column: 2;
+    grid-row: 1 / span 4;
+}
+.cards section p {
+    grid-column: 1;
+    font-size: 1rem;
+}
+
+.cards section p:nth-of-type(1) {
+    font-size: 1.5rem;
+}
+
+.cards section:nth-of-type(6) div {
+    grid-column: 1;
+    grid-row: 1 / span 4;
+}
+.cards section:nth-of-type(6) p {
+    grid-column: 2;
+}
+
+
+
 }

@@ -1,4 +1,12 @@
 @media only screen and (min-width: 60rem) {
+    header,
+    nav,
+    main,
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        }
     .gallery {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -8,4 +16,33 @@
     box-shadow: 0 0 30px #242423;
 
    }
+.smallart {
+    display: none;
+}
+.mediumart {
+    display: none;
+}
+.largeart {
+    display: block;
+    padding: 2rem;
+}
+.fireImg {
+    display: block;
+    float: right;
+    max-width: 300px;
+    margin: 0 30px;
+    border: 1px solid #242423;
+    box-shadow: 0 0 15px #242423;
+}
+.cards section {
+    display: block;
+    
+}
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+
 }
