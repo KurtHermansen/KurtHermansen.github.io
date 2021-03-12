@@ -61,11 +61,24 @@ main div {
     width: 300px;
     margin: 10px;
 }
+/*------------5 day Forecast-----------------*/
+
+.forecast caption {
+    font-size: 1.5rem;
+    color: #333533;
+}
+#forcastDay th, #forcastImg th, #forcastTemp th {
+    padding: 5px;
+}
+table {
+    background-color: #fae132;
+    margin-bottom: 15px;
+}
 .forecast{
     display: block;
 }
 table, th, td {
-    border: 1px solid black;
+    border: 2px solid #333533;
     border-collapse: collapse;
   }
 table {
@@ -79,6 +92,7 @@ td img {
 th,td {
     text-align: center;
 }
+/*------------Map-----------------*/
 .map{
     display: grid;
     grid-template-columns: auto auto;
