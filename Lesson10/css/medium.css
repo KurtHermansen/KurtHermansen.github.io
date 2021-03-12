@@ -79,8 +79,8 @@
     }
 
     #forecastDay th,
-    #forecastImg th,
-    #forecastTemp th {
+    #forecastImg td,
+    #forecastTemp td {
         padding: 5px 10px;
         color: #333533;
     }

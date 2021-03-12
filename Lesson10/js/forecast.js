@@ -26,7 +26,7 @@ fetch(apiURL2)
         day_list.append(day)
 
         // creating the temperate forcast
-        const temp_detail = document.createElement('th')
+        const temp_detail = document.createElement('td')
 
         let tempconvert = list[i].main.temp
         tempconvert = parseFloat(tempconvert).toFixed(1);
