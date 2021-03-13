@@ -6,7 +6,7 @@ fetch(apiURL2)
   })
   .then(function (jsonObject) {
 
-    console.table(jsonObject); // temporary checking for valid response and data parsing   
+    //console.table(jsonObject); // temporary checking for valid response and data parsing   
     const day_list = document.querySelector("#forecastDay")
     const temp_list = document.querySelector("#forecastImg")
     const temp_icon = document.querySelector("#forecastTemp")
@@ -16,7 +16,7 @@ fetch(apiURL2)
 
     for (let i = 0; i < list.length; i++) {
       if (jsonObject.list[i].dt_txt.includes('18:00:00')) {
-        console.log(list[i].dt_txt);
+        //console.log(list[i].dt_txt);
         let d = new Date(list[i].dt_txt)
 
         //Creating the Dates for the five days
