@@ -1,0 +1,76 @@
+body {
+    font-family: 'Aladin', sans-serif;
+    color: #BB3311;
+}
+main {
+    background-color: gainsboro;
+    padding: 20px;
+    box-shadow: 0 0 40px #242423;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #293241;
+}
+h2 {
+    font-size: 1.5rem;
+}
+p {
+    font-family: sans-serif;
+    color: #293241;
+    font-size: .85rem;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    grid-gap: 10px;
+    }
+section {
+    text-align: center;
+    background-color: #98c1d9 ;
+    border: 1px solid #3d5a80;
+    height: 100%;
+}
+img {
+    border: 1px solid white;
+    box-shadow: 0 0 30px #242423;
+    margin: 1rem 0;
+    width: 80%;
+}
+footer {
+    margin: 1rem auto;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+
+
+
+@media only screen and (min-width: 32.5rem) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+        h1 {
+            font-size: 3rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    
+}
+
+
+
+@media only screen and (min-width: 65rem) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    
+}

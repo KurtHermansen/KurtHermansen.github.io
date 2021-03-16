@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/Lesson11/css/small.css">
+    <link rel="stylesheet" href="/Lesson11/css/medium.css">
+    <link rel="stylesheet" href="/Lesson11/css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="gal-header">
+        <img class="logo" src="/Lesson11/images/weatherBeeLogo.png" alt="weatherbee.org Logo">
+        <section class="heading">
+            <h1>WeatherBee.org</h1>
+            <div>Our motto here is if the Bees are out why aren't you?</div>
+        </section>
+    </header>
+    <nav class="gal-nav">
+        <ul class="menu">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class=".home" href="/Lesson11/index.html">&LessLess;Home</a></li>
+            <li><a href="/Lesson11/preston.html">Preston</a></li>
+            <li><a href="/Lesson11/sodaSprings.html">Soda Springs</a></li>
+            <li><a href="/Lesson11/fishHaven.html">Fish Haven</a></li>
+            <li><a href="/Lesson11/stormCenter.html">Storm Center</a></li>
+            <li><a class="active" href="/Lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="gal-main">
+        <h2>Weather Bee Gallery</h2>
+        <section class="gallery">
+            <div>
+                <picture>
+                    <img src="/Lesson11/weatherGallery/placeHolder.jpg" data-src="/Lesson11/weatherGallery/SunnyFarm.jpg"
+                        alt="Sunny Farm">
+                </picture>
+                <p>This is a Sunny Day on the Farm</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="/Lesson11/weatherGallery/placeHolder.jpg" data-src="/Lesson11/weatherGallery/fall.jpg"
+                        alt="Fall Tree">
+                 </picture>
+                 <p>The peak of fall in Idaho</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="/Lesson11/weatherGallery/placeHolder.jpg" data-src="/Lesson11/weatherGallery/SunSet.jpg"
+                        alt="Sun Set">
+                </picture>
+                <p>Sun sets are our of this world in Idaho</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="/Lesson11/weatherGallery/placeHolder.jpg" data-src="/Lesson11/weatherGallery/Rainy.jpg"
+                        alt="Rainy Town">
+                </picture>
+                <p>One of the worst rain storm on record</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="/Lesson11/weatherGallery/placeHolder.jpg" data-src="/Lesson11/weatherGallery/lightning.jpg"
+                        alt="Lightning Clouds">                  
+                </picture>
+                <p>Sprind time storms bring the light</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="/Lesson11/weatherGallery/placeHolder.jpg" data-src="/Lesson11/weatherGallery/lightning2.jpg"
+                        alt="Lighting Clouds">                   
+                </picture>
+                <p>These light shows will blow your mind</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="/Lesson11/weatherGallery/placeHolder.jpg" data-src="/Lesson11/weatherGallery/Rainbow.jpg"
+                        alt="Rainbow on a Farm">                    
+                </picture>
+                <p>Idaho farm after much needed rain</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="/Lesson11/weatherGallery/placeHolder.jpg" data-src="/Lesson11/weatherGallery/cloudy.jpg"
+                        alt="Cloudy Pathway">                   
+                </picture>
+                <p>When the weather isn't great it's still pretty great</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="/Lesson11/weatherGallery/placeHolder.jpg" data-src="/Lesson11/weatherGallery/snowy.jpg"
+                        alt="Snowy Town">                   
+                </picture>
+                <p>The snow covering Idaho streets</p>
+            </div>
+        </section>
+
+    </main>
+    <script src="/Lesson11/js/lazyload.js"></script>
+    <footer class="gal-footer">
+        <p class="pfooter">&copy; <span id="currentYear"></span> Weather Bee | Kurt Hermansen | Utah | <a
+                href="https://www.byui.edu/online" class="byuLink" target="blank">BYUI Online Learning</a></p><span
+            id="currentDate"></span>
+        <script src="/Lesson11/js/weather.js"></script>
+    </footer>
+</body>
+
+</html>

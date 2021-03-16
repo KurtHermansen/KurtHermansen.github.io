@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/Lesson11/css/small.css">
+    <link rel="stylesheet" href="/Lesson11/css/medium.css">
+    <link rel="stylesheet" href="/Lesson11/css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="/Lesson11/images/weatherBeeLogo.png" alt="weatherbee.org Logo">
+        <section class="heading">
+            <h1>WeatherBee.org</h1>
+            <div>Our motto here is if the Bees are out why aren't you?</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class="home active" href="/Lesson11/index.html">&LessLess;Home</a></li>
+            <li><a href="/Lesson11/preston.html">Preston</a></li>            
+            <li><a href="/Lesson11/sodaSprings.html">Soda Springs</a></li>
+            <li><a href="/Lesson11/fishHaven.html">Fish Haven</a></li>
+            <li><a href="/Lesson11/stormCenter.html">Storm Center</a></li>
+            <li><a href="/Lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="indexart">
+            <h2 class="localhead">Local News</h2>
+            <p class="smallart">Second-alarm fire downtown<a class="continue"
+                    href="https://idahonews.com/news/local/large-fire-seen-in-downtown-boise-numerous-fire-engines-on-scene">
+                    Continue Reading...</a></p>
+            <p class="mediumart">BOISE, Idaho (CBS2) — A second-alarm fire broke out at a nine-story building under
+                construction in downtown Boise Thursday.<br><br>
+
+                The fire broke out just after 6:30 p.m. near 2nd Street and Myrtle. Roughly 40 firefighters and 13 crews
+                responded to the scene. The building is currently under construction. Numerous roads in the area were
+                closed while crews worked to contain the fire.<a class="continue"
+                    href="https://idahonews.com/news/local/large-fire-seen-in-downtown-boise-numerous-fire-engines-on-scene">
+                    Continue Reading...</a></p>
+            <p class="largeart"><img class="fireImg" src="/Lesson11/images/fire.jpg" alt=""> BOISE, Idaho (CBS2) — A
+                second-alarm fire broke out at a nine-story building under construction in downtown Boise
+                Thursday.<br><br>
+
+                The fire broke out just after 6:30 p.m. near 2nd Street and Myrtle. Roughly 40 firefighters and 13 crews
+                responded to the scene. The building is currently under construction. Numerous roads in the area were
+                closed while crews worked to contain the fire.<br><br>
+
+
+                Battalion Chief Steve Rasulo says the building had scaffolding in places inside the outer walls, which
+                made for tough access for firefighters. Crews used their 100-foot ladder to help get water onto the
+                flames.<br><br>
+
+                "Access to the building was initially difficult as the building was under construction and one of the
+                fire hydrants was not yet in service," Boise Fire said.
+                The fire was under control by 7:08 p.m.<a class="continue"
+                    href="https://idahonews.com/news/local/large-fire-seen-in-downtown-boise-numerous-fire-engines-on-scene">
+                    Continue Reading...</a></p>
+        </div>
+        <div id="card" class="cards"></div>
+        <div class="map">
+            <img class="beeIdaho" src="/Lesson11/images/Bee-Idaho.JPG" alt="Goolge Image of Idaho Honey Farms">
+            <section class="social">
+                <h3 class="socialheading">Weather Bee Site</h3>
+                <p><b>weatherbee.org</b><br><br>
+                    Idaho Honey Bee<br>
+                    123 Honey Bee ST,<br>88990, Preston, ID<br><br>
+                    Phone Number: 888-555-1234</p>
+                <div class="socialIcon">
+                    <a target="blank" href="https://www.facebook.com/"><img src="/Lesson11/images/FaceBook-Icon.png"
+                            alt="Facebook Icon"></a>
+                    <a target="blank" href="https://www.instagram.com/"><img src="/Lesson11/images/Insta-Icon.png"
+                            alt="Instagram Icon"></a>
+                    <a target="blank" href="https://twitter.com/"><img src="/Lesson11/images/Twitter-icon.png"
+                            alt="Twitter Icon"></a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p class="pfooter">&copy; <span id="currentYear"></span> Weather Bee | Kurt Hermansen | Utah | <a
+                href="https://www.byui.edu/online" class="byuLink" target="blank">BYUI Online Learning</a></p><span
+            id="currentDate"></span>
+        <script src="/Lesson11/js/weather.js"></script>
+    </footer>
+    <script src="/Lesson11/js/weathercard.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Heebo', 'sans-serif']
+            }
+        });
+    </script>
+</body>
+
+</html>
