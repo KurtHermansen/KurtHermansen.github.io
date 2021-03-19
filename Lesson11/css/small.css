@@ -202,6 +202,19 @@ main div {
 .forecast {
     display: none;
 }
+.hero_event {
+    text-align: center;
+    background: white;
+    box-shadow: 0 0 5px #242423;
+    padding: 10px;
+    margin: 10px 5%;
+}
+.hero_event h3 {
+    text-decoration: underline;
+}
+.js_events p {
+    padding: 0;
+}
 
 /*------------Article-----------------*/
 .article {
@@ -449,11 +462,11 @@ form label.top input:required:valid {
     display: none;
 }
 
-.cards section:nth-of-type(1) {
+.cards section:nth-of-type(2) {
     display: none;
 }
 
-.cards section:nth-of-type(3) {
+.cards section:nth-of-type(6) {
     display: none;
 }
 

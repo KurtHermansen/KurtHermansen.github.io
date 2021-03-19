@@ -5,29 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shorcut icon" href="/Lesson11/images/WB-icon.ico">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/Lesson11/css/small.css">
     <link rel="stylesheet" href="/Lesson11/css/medium.css">
     <link rel="stylesheet" href="/Lesson11/css/large.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
 
+    <div id="pancake" class="none">Preston Friday Special! <br>Pancakes in the Park 9:00AM</div>
     <header>
+
         <img class="logo" src="/Lesson11/images/weatherBeeLogo.png" alt="weatherbee.org Logo">
         <section class="heading">
             <h1>WeatherBee.org</h1>
             <div>Our motto here is if the Bees are out why aren't you?</div>
-        </section>  
+        </section>
     </header>
     <nav>
         <ul class="menu">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a class=".home" href="/Lesson11/index.html">&LessLess;Home</a></li>
-            <li><a  href="/Lesson11/preston.html">Preston</a></li>
+            <li><a class="home" href="/Lesson11/index.html">&LessLess;Home</a></li>
+            <li><a href="/Lesson11/preston.html">Preston</a></li>
             <li><a href="/Lesson11/sodaSprings.html">Soda Springs</a></li>
             <li><a class="active" href="/Lesson11/fishHaven.html">Fish Haven</a></li>
             <li><a href="/Lesson11/stormCenter.html">Storm Center</a></li>
@@ -35,17 +36,100 @@
         </ul>
     </nav>
     <main>
-        <h2>Fish Haven</h2>
-        <div class="hero">Hero Image and Weather Summary</div>
-        <div class="forecast">Five Day Forecast</div>
-        <div class="article">Article Section</div>
-        <div class="map">Map and Contact Information</div>
+        <h2>Preston Idaho</h2>
+        <div class="parHero">
+            <img alt="Main Street" src="/Lesson11/images/FishHavenHero.jpg" id="hero" class="hero">
+            <section class="summary">
+                <h3>Weather Summary</h3>
+                <div class="summaryLeft">
+                    <P>Currently:</p>
+                    <p>High: </p>
+                    <p>Wind Chill:</p>
+                    <p>Humidity:</p>
+                    <p>Wind Speed:</P>
+                </div>
+                <div class="summaryRight">
+                    <p><span id="currentTemp"></span> &#8457;</p>
+                    <p><span id="highTemp"></span> &#8457;</p>
+                    <p><span id="windchill"></span> &#8457;</p>
+                    <p><span id="humidity"></span> %</p>
+                    <p><span id="wind"></span> mph</p>
+                </div>
+            </section>
+            
+        </div>
+        <div class="hero_event">
+            <h3>Upcoming Events:</h3>
+            <section id="jsEvents" class="js_events"></section>
+        </div>
+        <div class="forecast">
+            <table>
+                <caption>5 Day Forecast</caption>
+                <thead>
+                    <tr id="forecastDay"></tr>
+                </thead>
+                <tbody>
+                    <tr id="forecastImg"></tr>
+                    <tr id="forecastTemp"></tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="/Lesson11/js/fish.js"></script>
+        <div class="article">
+            <img alt="Bee in Honycomb" class="bee" src="/Lesson11/images/Fishing.jpg">
+            <div class="text">
+                <h3>Fishing Tips for Beginners</h3>
+                <a class="artLink" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3611628/">Articles from TakeMeFishing.org</a>
+
+                <p><b>SAFETY FIRST</b><br>
+                    This means angler safety. While most anglers tend to remember items like sunscreen, rain gear, and a first aid kit, beginners tend to forget non-fishing essentials, like bringing along a bottle of drinking water. Or Dramamine for boat trips. Staying healthy and hydrated are key to an enjoyable day of fishing. <br><br>
+                    
+                    <b>BOAT FISHING TIPS AND TRICKS</b><br>
+                    In addition to always wearing a properly rated PFD when on the water, regardless of the size of the boat, space is often limited in small boats. Reeling your catch in to the tip of the rod may prove far more difficult to handle in a boat than on dry land. To make landing your catch easier, leave at least a rod’s worth of line out when reeling in your catch and lift the line itself out of the water. The extra length of line will keep your rod from reacting to the movement of the flopping fish as you remove the hook, which is especially helpful when lacking the space to set the rod down. <br><br>
+                    
+                    <b>FRESHWATER VS. SALTWATER</b><br>
+                    Few beginners are introduced to saltwater fishing from the start, due to lack of access to a saltwater coastline. As a result, freshwater lake fishing for beginners is a more common introduction to boat fishing for new anglers. A lot of beginner SUP anglers also enjoy lake fishing. <br><br>
+                    
+                    <b>RIG IT RIGHT</b><br>
+                    No listing of beginner fishing tips can be complete without some discussion of rigging. There are two reasons why rigging is important. First, a strong, well-tied fishing knot doesn't break when you set the hook. Second, certain knots swim your fly or lure in a way that mimics natural bait. But only if you practice using the correct fishing knot for your lures. For example, in fly fishing, a Turle Knot is a great fixed knot that makes your dry flies drift properly. Of course, rigging is only part of the equation. <a class="readon" target="blank"
+                        href="https://www.takemefishing.org/how-to-fish/how-to-catch-fish/fishing-tips/fishing-tips-for-beginners/">Click here to read full list..</a>
+                </p>
+            </div>
+        </div>
+        <div class="map">
+            <img class="beeIdaho" src="/Lesson11/images/Bee-Idaho.JPG" alt="Goolge Image of Idaho Honey Farms">
+            <section class="social">
+                <h3 class="socialheading">Weather Bee Site</h3>
+                <p><b>weatherbee.org</b><br><br>
+                    Idaho Honey Bee<br>
+                    123 Honey Bee ST,<br>88990, Preston, ID<br><br>
+                    Phone Number: 888-555-1234</p>
+                <div class="socialIcon">
+                    <a target="blank" href="https://www.facebook.com/"><img src="/Lesson11/images/FaceBook-Icon.png"
+                            alt="Facebook Icon"></a>
+                    <a target="blank" href="https://www.instagram.com/"><img src="/Lesson11/images/Insta-Icon.png"
+                            alt="Instagram Icon"></a>
+                    <a target="blank" href="https://twitter.com/"><img src="/Lesson11/images/Twitter-icon.png"
+                            alt="Twitter Icon"></a>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <p class="pfooter">&copy; <span id="currentYear"></span> Weather Bee | Kurt Hermansen | Utah | <a
-                href="https://www.byui.edu/online" class="byuLink" target="blank">BYUI Online Learning</a></p><span id="currentDate"></span>
+                href="https://www.byui.edu/online" class="byuLink" target="blank">BYUI Online Learning</a></p><span
+            id="currentDate"></span>
         <script src="/Lesson11/js/weather.js"></script>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Heebo', 'sans-serif']
+            }
+        });
+    </script>
 </body>
 
 </html>

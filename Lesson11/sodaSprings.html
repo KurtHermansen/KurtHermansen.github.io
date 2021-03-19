@@ -5,23 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shorcut icon" href="/Lesson11/images/WB-icon.ico">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/Lesson11/css/small.css">
     <link rel="stylesheet" href="/Lesson11/css/medium.css">
     <link rel="stylesheet" href="/Lesson11/css/large.css">
-    <link rel="preconnect" href="https:/fonts.gstatic.com">
-    <link href="https:/fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 
 <body>
 
+    <div id="pancake" class="none">Preston Friday Special! <br>Pancakes in the Park 9:00AM</div>
     <header>
+
         <img class="logo" src="/Lesson11/images/weatherBeeLogo.png" alt="weatherbee.org Logo">
         <section class="heading">
             <h1>WeatherBee.org</h1>
             <div>Our motto here is if the Bees are out why aren't you?</div>
-        </section>  
+        </section>
     </header>
     <nav>
         <ul class="menu">
@@ -35,17 +36,110 @@
         </ul>
     </nav>
     <main>
-        <h2>Soda Springs</h2>
-        <div class="hero">Hero Image and Weather Summary</div>
-        <div class="forecast">Five Day Forecast</div>
-        <div class="article">Article Section</div>
-        <div class="map">Map and Contact Information</div>
+        <h2>Preston Idaho</h2>
+        <div class="parHero">
+            <img alt="Main Street" src="/Lesson11/images/sodaspringsHero.jpg" id="hero" class="hero">
+            <section class="summary">
+                <h3>Weather Summary</h3>
+                <div class="summaryLeft">
+                    <P>Currently:</p>
+                    <p>High: </p>
+                    <p>Wind Chill:</p>
+                    <p>Humidity:</p>
+                    <p>Wind Speed:</P>
+                </div>
+                <div class="summaryRight">
+                    <p><span id="currentTemp"></span> &#8457;</p>
+                    <p><span id="highTemp"></span> &#8457;</p>
+                    <p><span id="windchill"></span> &#8457;</p>
+                    <p><span id="humidity"></span> %</p>
+                    <p><span id="wind"></span> mph</p>
+                </div>
+            </section>
+            
+        </div>
+        <div class="hero_event">
+            <h3>Upcoming Events:</h3>
+            <section id="jsEvents" class="js_events"></section>
+        </div>
+        <div class="forecast">
+            <table>
+                <caption>5 Day Forecast</caption>
+                <thead>
+                    <tr id="forecastDay"></tr>
+                </thead>
+                <tbody>
+                    <tr id="forecastImg"></tr>
+                    <tr id="forecastTemp"></tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="/Lesson11/js/soda.js"></script>
+        <div class="article">
+            <img alt="Bee in Honycomb" class="bee" src="/Lesson11/images/Hot_Spring.jpg">
+            <div class="text">
+                <h3>Health Benefits of a Hot Spring</h3>
+                <a class="artLink" href="https://wilburhotsprings.com/health-benefits-of-a-hot-spring/">Articles from Wilbur Hot Springs</a>
+
+                <p><b>Health Benefits of a Hot Spring</b><br> Not only is it relaxing, but soaking in a hot spring can have great benefits for your health. <br>
+
+                    The healing powers of hot springs have been used for thousands of years and have been widely accepted in Europe and Japan as natural treatment options for various common ailments. Hot springs are known to have a number of therapeutic benefits, with many scientists from around the world studying balneology or the “treatment of disease by bathing.” Here are some of the benefits of taking a soak. <br><br>
+                    
+                    <b>Boost Blood Circulation</b><br>
+                    
+                    The water found in natural hot springs contains a variety of different minerals, including calcium and sodium bicarbonate. Our bodies soak up these minerals when we are in a hot spring, which increases circulation and overall oxygen flow. <br><br>
+                    
+                    <b>Reduce Stress and Promote Sleep</b><br>
+                    
+                    The mineral water in hot springs can also help reduce stress by relaxing tense muscles. Meanwhile as your body temperature rises in the bath, and then cools once you exit can also help you relax and fall into a deeper sleep. <br><br>
+                    
+                    <b>Relieve Pain</b><br>
+                    
+                    An Israeli study found that hot mineral baths may aid in pain relief and fatigue caused by widespread pain. This is because the heat which can dull our perception of pain by blocking the pain receptors in our bodies. Also being buoyant in the water often allows for freer movement as the water supports the body’s joints. <br><br>
+                    
+                    <b>Heal Skin Problems</b><br>
+                    
+                    The high silica content found in hot springs can smooth and soften dry and rough skin. Meanwhile, the sulfur contained in the water can also hold medicinal properties that may relieve conditions such as eczema and psoriasis. <br><br>
+                    
+                    <b>Disclaimer:</b> It is important to check with your doctor or medical professional before bathing in a hot spring to ensure that the practice is safe for you. <a class="readon" target="blank"
+                        href="https://wilburhotsprings.com/health-benefits-of-a-hot-spring/">Click here to read full list..</a>
+                </p>
+            </div>
+        </div>
+        <div class="map">
+            <img class="beeIdaho" src="/Lesson11/images/Bee-Idaho.JPG" alt="Goolge Image of Idaho Honey Farms">
+            <section class="social">
+                <h3 class="socialheading">Weather Bee Site</h3>
+                <p><b>weatherbee.org</b><br><br>
+                    Idaho Honey Bee<br>
+                    123 Honey Bee ST,<br>88990, Preston, ID<br><br>
+                    Phone Number: 888-555-1234</p>
+                <div class="socialIcon">
+                    <a target="blank" href="https://www.facebook.com/"><img src="/Lesson11/images/FaceBook-Icon.png"
+                            alt="Facebook Icon"></a>
+                    <a target="blank" href="https://www.instagram.com/"><img src="/Lesson11/images/Insta-Icon.png"
+                            alt="Instagram Icon"></a>
+                    <a target="blank" href="https://twitter.com/"><img src="/Lesson11/images/Twitter-icon.png"
+                            alt="Twitter Icon"></a>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <p class="pfooter">&copy; <span id="currentYear"></span> Weather Bee | Kurt Hermansen | Utah | <a
-                href="https://www.byui.edu/online" class="byuLink" target="blank">BYUI Online Learning</a></p><span id="currentDate"></span>
+                href="https://www.byui.edu/online" class="byuLink" target="blank">BYUI Online Learning</a></p><span
+            id="currentDate"></span>
         <script src="/Lesson11/js/weather.js"></script>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Heebo', 'sans-serif']
+            }
+        });
+    </script>
 </body>
 
 </html>

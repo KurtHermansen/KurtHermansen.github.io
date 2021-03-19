@@ -19,7 +19,7 @@ fetch(requestURL)
 
             hero.setAttribute('class', 'card-hero');
             h3.textContent = towns[i].name;            
-            image.setAttribute('src', '/Lesson9/images/' + towns[i].photo);
+            image.setAttribute('src', '/Lesson11/images/' + towns[i].photo);
             image.setAttribute('alt', towns[i].name + ' image')
             motto.textContent = towns[i].motto;
             year.textContent = 'Year Founded: ' + towns[i].yearFounded;
