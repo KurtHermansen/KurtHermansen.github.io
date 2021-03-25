@@ -1,0 +1,28 @@
+/*font-family: 'Cinzel', serif;
+font-family: 'Montserrat', sans-serif;
+
+Color Palette
+{"Floral White":"fffcf2","Pale Silver":"ccc5b9","Black Olive":"403d39","Eerie Black":"252422","Flame":"eb5e28"}
+
+*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ccc5b9;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Cinzel', serif;
+}
+main, header, footer {
+    margin: 0 auto;
+    width: 85%;
+}
+main {
+    padding: 30px;
+    background-color: #fffcf2;
+}
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #eb5e28;
+}
+
