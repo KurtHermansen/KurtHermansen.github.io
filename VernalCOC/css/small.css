@@ -1,0 +1,166 @@
+/*font-family: 'Cinzel', serif;
+font-family: 'Montserrat', sans-serif;
+
+Color Palette
+{"Floral White":"fffcf2","Pale Silver":"ccc5b9","Black Olive":"403d39","Eerie Black":"252422","Flame":"eb5e28"}
+
+*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ccc5b9;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Cinzel', serif;
+}
+main, header, footer {
+    margin: 0 auto;
+    width: 100%;
+}
+main {
+
+    background-color: #ccc5b9;
+}
+.active {
+    text-decoration: underline;
+    background-color: #252422;
+}
+
+/*----------------NAV------------------*/
+.top-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+nav {
+    background-color: #403d39;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul a {
+    display: block;
+    white-space: nowrap;
+    color: #ccc5b9;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #fffcf2;
+    color: #252422;
+}
+.menu li:first-child {
+    display: block;
+}
+
+.menu li {
+    display: none;
+    font-size: .75rem;
+}
+
+.burger li {
+    display: block;
+}
+nav {
+    position: sticky;
+    top: 0;
+}
+/*--------------HEADER-----------*/
+.logo-header {
+   text-align: center;
+   background-image: url(/VernalCOC/images/phone-background.jpg);
+   background-size: 100%;
+   background-attachment: fixed;
+}
+.vernalCOC h1 {
+    margin: 0;
+    padding: 2rem;
+}
+/*-----------------HERO EVENTS------------*/
+
+.events, .weather {
+    margin: 2rem;
+    padding: 2rem;
+    background: #fffcf2;
+    box-shadow: 0 0 15px gray;
+}
+.events h3, .weather h3 {
+    text-align: center;
+}
+/*-----------------LOCAL ADS----------------*/
+.ad-img {
+    width: 175px;
+}
+.local-ads section{
+    padding: 10px;
+    margin: 2rem;
+    background-color: white;
+
+    box-shadow: 0 0 15px gray;
+    text-align: center;
+}
+.local-ads section h3{
+    color: #252422;
+    text-shadow: 2px 2px 8px #eb5e28;
+    font-size: 1.5rem;
+}
+.ad-statement {
+    color: #eb5e28;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/*----------------MEMBER-------------------*/
+.member-div {
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+.map-div {
+
+    text-align: center;
+}
+.contact-logo {
+    width: 100px;
+}
+.join-now {
+    text-align: center;
+    background-color: #eb5e28;
+    border: 1px solid #403d39;
+    box-shadow: 0 0 15px gray;
+    margin: 0 auto;
+    width: 100px;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+.join-now a {
+    color: black;
+    text-decoration: none;
+    font-weight: 1000;
+}
+/*----------------MAP---------------------*/
+.map {
+    display: none;
+}
+.contact {
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 75%;
+    background-color: #fffcf2;
+    box-shadow: 0 0 15px gray;
+}
+/*-----------------FOOTER---------------*/
+footer {
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    background-color: #403d39;
+}
+.byuLink {
+    color: white;
+}
