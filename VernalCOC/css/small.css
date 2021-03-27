@@ -155,7 +155,7 @@ nav {
     box-shadow: 0 0 15px gray;
 }
 /*-----------------FOOTER---------------*/
-footer {
+.footer {
     padding: 1rem;
     color: white;
     text-align: center;
