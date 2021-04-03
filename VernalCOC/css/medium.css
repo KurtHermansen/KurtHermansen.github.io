@@ -63,8 +63,10 @@
     .map {
         display: block;
         width: 100%;
+        max-width: 1500px;
         min-height: 500px;
         height: 100%;
+        box-shadow: 0 0 15px gray;
     }
     .contact {
         margin: 2rem auto;
@@ -73,5 +75,90 @@
     }
     /*-----------------FOOTER---------------*/
 
+    /*--------------DIRECTORY------------*/
+    .view-changer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 150px;
+        padding: 2rem 2rem 0 2rem;
+        text-align: center;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 2rem;
+        text-align: left;
+        vertical-align: middle;
+        border-right: 1px solid #403d39;
+        max-width: 1200px; 
+        grid-column-gap: 5px;   
+    }
+    .list img {
+        grid-column: 1;
+        grid-row: span 2;
+    }
+    .list p:nth-child(1) {
+        grid-column: 4;
+        grid-row: span 2;
+    }
+    .list p:nth-child(2) {
+        grid-column: 5;
+        grid-row: span 2;
+    }
+    .list a {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .list h2 {
+        grid-column: 2;
+        grid-row: 1;
+    }  
+    /*--------------Vernal Page---------------*/
+    .demograph, .economy {
+        overflow: auto;
+        margin: 0 auto;
+        width: 90%;
+        padding: 2rem;
+    }
+    .vernal-mountain {
+        display: block;
+        float: right;
+        max-width: 500px;
+    }
+    .vernal-dino {
+        display: block;
+        float: left;
+        max-width: 900px;
+    }
+    .map-div-2 {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
     
+    .economy p img{
+        width: 40%;
+    }
+    .elk {
+        float: right;
+    }
+
+    /*------------form--------------------*/
+    .logo-header-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(/VernalCOC/images/hero-background.jpg);
+        background-position-y: 400px;
+    }
+    /*-------------Contact--------------*/
+    .board {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem;
+    }
 }

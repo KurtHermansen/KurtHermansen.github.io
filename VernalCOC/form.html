@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCOC Site Plan</title>
+    <link rel="shorcut icon" href="/VernalCOC/images/icon.png">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/VernalCOC/css/small.css">
+    <link rel="stylesheet" href="/VernalCOC/css/medium.css">
+    <link rel="stylesheet" href="/VernalCOC/css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class="home" href="/VernalCOC/index.html">Home</a></li>
+            <li><a href="/VernalCOC/vernal.html">Vernal</a></li>
+            <li><a class="active" href="/VernalCOC/form.html">Sign Up</a></li>
+            <li><a href="/VernalCOC/directory.html">Directory</a></li>
+            <li><a href="/VernalCOC/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="logo-header-2">
+            <div class="vernalCOC">
+                <h1>Vernal Chamber of Commerce</h1>
+            </div>
+            <div class="logo">
+                <img src="/VernalCOC/images/Light-Logo.png" alt="VCOC Logo">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="member-level">
+            <h2>Why Join?</h2>
+            <p>By joining the Vernal Chamber of Commerce, you will provide a better business atmosphere for our local community. We collaborate with local business to set up the best local events. This providing our members with the means to connect with Vernal’s economy. Stay on the hearts and minds of the community by showing your support for this great community. With your help our local events can be better than ever! We know how much the community means to you and how we all want the best for our family and friends. <br><br>
+                Get your name out there! You can have the opportunity to have your business advertised on our site. Also, we give generous praise to our members at evert local event. Your Success makes Vernal a better place. That is why we strive to promote our members the best we can.
+                </p>
+        <div>
+            <h2>Member Levels</h2>
+            <p>Each level gets the privileges mentioned in the above tier.</p>
+            <p><strong>Non-Profit ($100):</strong> Basic access to events and advertising opportunity.</p>
+            <p><strong>Bronze ($200):</strong> Event advertising, directory listing, and early access to events.</p>
+            <p><strong>Silver ($400):</strong> Home page advertising, full print ads and mention at events, reserved booth for local expo shows.</p>
+            <p><strong>Gold ($1,000):</strong> Business trainings via monthly entrepreneurial lunch and learn, Social media posts, radio advertising with events advertising.</p>
+        </div>
+                
+                
+        </div>
+       <h2 class="formhead">Become a Member of the Chamber of Commerce</h2>
+       <form method="GET" action="thanks.html" autocomplete="off">
+           <fieldset>
+               <legend><h2>Personal Information</h2></legend>
+               <label class="top">First Name: <input type="text" name="first"
+                       autofocus></label>
+               <label class="top"> Last Name: <input type="text" name="last"></label>                
+               <label class="top"> Email <input type="email" name="email" placeholder="email@gamail.com"
+                       required></label>              
+               <label class="top"> Phone <input type="tel" name="phone" placeholder="123456798"></label>
+           </fieldset>
+           <fieldset>
+               <legend><h2>Business Information</h2></legend>
+               <label class="mid">Business Name: <input type="text" name="Business"></label>
+               <label class="mid">Business Adress: <input type="text" name="address"></label>
+               <label class="mid">Business Website: <input type="text" name="website"></label>
+               <label class="mid" for="comment">Additional Business Info</label>
+               <textarea class="comment" id="comment" name="comment" rows="6" cols="37"></textarea>              
+                       
+           </fieldset>
+           <fieldset>
+            <legend><h2>Member Level</h2></legend>
+            <label class="radio"><input class="non" type="radio" name="danger" value="yes"> Non-Profit ($100)</label>
+            <label class="radio"><input class="non" type="radio" name="danger" value="no"> Bronze ($200)</label>
+            <label class="radio"><input class="non" type="radio" name="danger" value="maybe"> Silver ($400)</label>
+            <label class="radio"><input class="non" type="radio" name="danger" value="maybe"> Gold ($1,000)</label>
+            
+           </fieldset>
+           <div class="join-button">
+               <input type="submit" value="Join Now" class="form-button">
+            </div>
+           
+       </form>
+       
+    </main>
+   
+
+
+    <footer>
+        <div class="footer">
+            <p class="pfooter">&copy; <span id="currentYear"></span> Vernal COC | Kurt Hermansen | Utah | <a
+                    href="https://www.byui.edu/online" class="byuLink" target="blank">BYUI Online Learning</a></p><span
+                id="currentDate"></span>
+        </div>
+        <script src="/VernalCOC/js/footer.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Cinzel', 'serif', 'Montserrat', 'sans-serif']
+            }
+        });
+    </script>
+</body>
+</html>

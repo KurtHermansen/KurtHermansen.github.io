@@ -25,6 +25,6 @@ fetch(requestURL)
         card.appendChild(p2);
         card.appendChild(image);
         
-        document.querySelector('div.cards').appendChild(card);}
+        document.querySelector('cards').appendChild(card);}
   });
   

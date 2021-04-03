@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCOC Site Plan</title>
+    <link rel="shorcut icon" href="/VernalCOC/images/icon.png">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/VernalCOC/css/small.css">
+    <link rel="stylesheet" href="/VernalCOC/css/medium.css">
+    <link rel="stylesheet" href="/VernalCOC/css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class="home" href="/VernalCOC/index.html">Home</a></li>
+            <li><a href="/VernalCOC/vernal.html">Vernal</a></li>
+            <li><a href="/VernalCOC/form.html">Sign Up</a></li>
+            <li><a href="/VernalCOC/directory.html">Directory</a></li>
+            <li><a class="active" href="/VernalCOC/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="logo-header-2">
+            <div class="vernalCOC">
+                <h1>Vernal Chamber of Commerce</h1>
+            </div>
+            <div class="logo">
+                <img src="/VernalCOC/images/Light-Logo.png" alt="VCOC Logo">
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <div class="board">
+            <form action="index.html">
+                <fieldset>
+                    <legend><h2>Contact the Chamber</h2></legend>
+                    <label class="mid">Full Name: <input type="text" name="fullName"></label>
+                    <label class="mid">Phone Number: <input type="text" name="number"></label>
+                    <label class="mid">Email: <input type="text" name="email"></label>
+                    <label class="mid" for="comment">Comment</label>
+                    <textarea class="comment" id="comment" name="comment" rows="6" cols="37"></textarea> 
+                    <div class="join-button">
+                        <input onclick="alertForm()" type="submit" value="Send" class="form-button">
+                     </div>             
+                            
+                </fieldset>
+            </form>
+            <div>
+                <h2>Board Members</h2>
+                    <ul class="members">
+                        <li>Sidney Smith, President</li>
+                        <li>Robin O'Driscoll, Past President</li>
+                        <li>Jared Jackson, Board Member</li>
+                        <li>Dean Baker, Board Member</li>
+                        <li>Doug Hammond, Board Member</li>
+                        <li>Wes Taylor, Board Member</li>
+                        <li>Brad Horrocks, Board Member</li>
+                        <li>Brandon Anderson, Board Member</li>
+                        <li>Tabitha Wilson, Board Member</li>
+                        <li>Aaron Averett, Board Member</li>
+                        <li>Joel Brown, Executive Director</li>
+                        <li>Marilyn Wallis, Chamber Office Staff</li>
+                        <li>Alyssa McClanahan, Chamber Office Staff</li>
+                    </ul>
+                
+            </div>
+            
+    </div>
+       
+        <div class="map-div-2">
+            <div class="map-container">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26485.141550786997!2d-109.52980394735668!3d40.45595363318522!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87456247a3c18f8b%3A0xa2a4006fbbc124dc!2sVernal%2C%20UT%2084078!5e0!3m2!1sen!2sus!4v1617339245601!5m2!1sen!2sus"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>                           
+            </div>
+            <div class="contact">
+                <h3>Contact the Chamber</h3>
+                <hr>
+                <img class="contact-logo" src="/VernalCOC/images/Light-Logo.png" alt="vernalCOC Logo"><br>                               
+                <p>EMAIL: vernalCOC@vernalcity.org</p>
+                <p>PHONE: 435-790-1234</p>
+                <div class="socialIcon">
+                    <a target="blank" href="https://www.facebook.com/"><img src="/VernalCOC/images/FaceBook-Icon.png"
+                            alt="Facebook Icon"></a>
+                    <a target="blank" href="https://www.instagram.com/"><img src="/VernalCOC/images/Insta-Icon.png"
+                            alt="Instagram Icon"></a>
+                    <a target="blank" href="https://twitter.com/"><img src="/VernalCOC/images/Twitter-icon.png"
+                            alt="Twitter Icon"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+   
+
+
+    <footer>
+        <div class="footer">
+            <p class="pfooter">&copy; <span id="currentYear"></span> Vernal COC | Kurt Hermansen | Utah | <a
+                    href="https://www.byui.edu/online" class="byuLink" target="blank">BYUI Online Learning</a></p><span
+                id="currentDate"></span>
+        </div>
+        <script src="/VernalCOC/js/footer.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Cinzel', 'serif', 'Montserrat', 'sans-serif']
+            }
+        });
+    </script>
+</body>
+</html>

@@ -16,5 +16,27 @@
         margin: 2rem auto;
         width: 50%;
     }
-    
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }   
+    .logo-header-2 {
+        background-position-y: 500px;
+    }
+    .economy {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+    .economy h2 {
+        grid-column: span 2;
+    }
+    .economy p img{
+        width: 90%;
+    }
+    .economy p {
+        width: 90%;
+    }
+
+
 }

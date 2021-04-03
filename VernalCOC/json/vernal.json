@@ -1,0 +1,53 @@
+{
+    "vernal": [
+      {
+        "name": "BHI",
+        "address": "826 S 1500 E, Naples, UT 84078",
+        "logo": "BHI.png",
+        "website": "https://www.bhico.com/",
+        "phone": "435-789-5252"
+      },
+      {
+        "name": "Strata Networks",
+        "address": "2085 US-40, Vernal, UT 84078",
+        "logo": "Strata-Logo.png",
+        "website": "https://stratanetworks.com/",
+        "phone": "435-622-5007"
+      },
+      {
+        "name": "B&D RV Center",
+        "address": "1570 US-40, Vernal, UT 84078",
+        "logo": "bdrv-logo.png",
+        "website": "https://www.bdrv.biz/",
+        "phone": "435-789-1970"
+     },
+      {
+        "name": "Kooke Company",
+        "address": "1060 Market Dr, Vernal, UT 84078",
+        "logo": "Kooke.JPG",
+        "website": "https://m.facebook.com/kookecompany/",
+        "phone": "435-781-1987"
+      },
+      {
+        "name": "Techris Design",
+        "address": "110 W Main St, Vernal, UT 84078",
+        "logo": "techris.png",
+        "website": "https://techrisdesign.com/",
+        "phone": "435-789-6550"
+    },
+    {
+      "name": "Jones Paint & Glass",
+      "address": "543 N Vernal Ave, Vernal, UT 84078",
+      "logo": "jones-paint.png",
+      "website": "https://jonespg.com/",
+      "phone": "435-789-3241"
+    },
+    {
+      "name": "Western Living Furniture",
+      "address": "1100 US-40, Vernal, UT 84078",
+      "logo": "western-living.PNG",
+      "website": "https://www.gowesternliving.com/",
+      "phone": "435-789-6550"
+    }
+    ]
+  }
